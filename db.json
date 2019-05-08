@@ -1,0 +1,31 @@
+{
+	"oras": [{
+		"nume":"Craiova",
+		"id": 1
+	},
+	{
+		"nume":"Bucuresti",
+		"id": 2
+	},
+	{
+		"nume":"Timisoara",
+		"id": 3
+	}],
+	"restaurante": [
+		{"id":1,"nume":"Bistro", "orasId":2},
+		{"id":2,"nume":"Carol", "orasId":1},
+		{"id":3,"nume":"Pizza", "orasId":3}
+	],
+	"categorie": [
+		{"id":1 ,"nume":"Pizza", "restaurantId":[2,3]}
+	],
+	"mancare":[
+		{
+			"id":1,
+			"nume":"Clatite",
+			"descriere":"bla bla",
+			"restaurantId": 3,
+			"categorie": "desert"
+		}
+	]
+}
